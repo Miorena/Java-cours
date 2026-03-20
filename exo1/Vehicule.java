@@ -18,27 +18,17 @@ public class Vehicule {
 		this.placeAsise = placeAsise;
 	}
 
-	public String getIdVehicule() {
-		return idVehicule;
-	}
+	public void setIdVehicule(String idVehicule) { this.idVehicule = idVehicule; }
+	public void setCarrosserir(String carrosserie) { this.carrosserie = carrosserie; }
+	public void setMarque(String marque) { this.marque = marque; }
+	public void setModele(String modele) { this.modele = modele; }
+	public void setNomberDeRoues(int nombreDeRoues) { this.nombreDeRoues = nombreDeRoues; }
+	public void setPlaceAsise(int placeAsise) { this.placeAsise = placeAsise; }
 
-	public String getCarrosserie() {
-		return carrosserie;
-	}
-
-	public String getMarque() {
-		return marque;
-	}
-
-	public String getModele() {
-		return modele;
-	}
-
-	public int getNombreDeRoues() {
-		return nombreDeRoues;
-	}
-
-	public int getPlaceAsise() {
-		return placeAsise;
-	}
+	public String getIdVehicule() { return idVehicule; }
+	public String getCarrosserie() { return carrosserie; }
+	public String getMarque() { return marque;}
+	public String getModele() { return modele; }
+	public int getNombreDeRoues() { return nombreDeRoues; }
+	public int getPlaceAsise() { return placeAsise; }
 }
