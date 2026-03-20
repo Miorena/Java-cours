@@ -19,7 +19,7 @@ public class Vehicule {
 	}
 
 	public void setIdVehicule(String idVehicule) { this.idVehicule = idVehicule; }
-	public void setCarrosserir(String carrosserie) { this.carrosserie = carrosserie; }
+	public void setCarrosserie(String carrosserie) { this.carrosserie = carrosserie; }
 	public void setMarque(String marque) { this.marque = marque; }
 	public void setModele(String modele) { this.modele = modele; }
 	public void setNomberDeRoues(int nombreDeRoues) { this.nombreDeRoues = nombreDeRoues; }
@@ -35,6 +35,6 @@ public class Vehicule {
 	@Override
 	public String toString() {
 		return "id=" + idVehicule + ", carrosserie=" + carrosserie + ", marque=" + marque +
-				", modele=" + modele + ", nombreRoues=" + nombreDeRoues + ", placeAsise=" + placeAsise + "]";
+				", modele=" + modele + ", nombreRoues=" + nombreDeRoues + ", placeAsise=" + placeAsise;
 	}
 }

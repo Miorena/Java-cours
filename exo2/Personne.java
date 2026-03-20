@@ -25,6 +25,6 @@ public class Personne {
 
 	@Override
 	public String toString() {
-		return "id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", adresse=" + adresse + "]";
+		return "id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", adresse=" + adresse;
 	}
 }
