@@ -10,6 +10,12 @@ public class Etudiant extends Personne {
 		this.niveau = niveau;
 	}
 
+	public void setAnneeScolaire(int anneeScolaire) { this.anneeScolaire = anneeScolaire; }
+	public void setNiveau(String niveau) { this.niveau = niveau; }
+
+	public int anneeScolaire() { return anneeScolaire; }
+	public String niveau() { return niveau; }
+
 	@Override
 	public String toString() {
 		return "Etudiant [" + super.toString() + ", niveau=" + niveau + ", année=" + anneeScolaire + "]";

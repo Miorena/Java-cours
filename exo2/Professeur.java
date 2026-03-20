@@ -8,6 +8,10 @@ public class Professeur extends Personne {
 		this.matiere = matiere;
 	}
 
+	public void setMatiere(String matiere) { this.matiere = matiere; }
+
+	public String getMatiere() { return matiere; }
+
 		@Override
 	public String toString() {
 		return "Professeur [" + super.toString() + ", matière=" + matiere + "]";
