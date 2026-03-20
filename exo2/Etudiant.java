@@ -12,7 +12,6 @@ public class Etudiant extends Personne {
 
 	@Override
 	public String toString() {
-		return "Etudiant [id=" + getId() + ", nom=" + getNom() + ", prenom=" + getPrenom() +
-				", adresse=" + getAdresse() + ", niveau=" + niveau + ", année scolaire=" + anneeScolaire;
+		return "Etudiant [" + super.toString() + ", niveau=" + niveau + ", année=" + anneeScolaire + "]";
 	}
 }

@@ -31,4 +31,10 @@ public class Vehicule {
 	public String getModele() { return modele; }
 	public int getNombreDeRoues() { return nombreDeRoues; }
 	public int getPlaceAsise() { return placeAsise; }
+
+	@Override
+	public String toString() {
+		return "id=" + idVehicule + ", carrosserie=" + carrosserie + ", marque=" + marque +
+				", modele=" + modele + ", nombreRoues=" + nombreDeRoues + ", placeAsise=" + placeAsise + "]";
+	}
 }

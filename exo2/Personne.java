@@ -22,4 +22,9 @@ public class Personne {
 	public String getNom() { return nom; }
 	public String getPrenom() { return prenom; }
 	public String getAdresse() { return adresse; }
+
+	@Override
+	public String toString() {
+		return "id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", adresse=" + adresse + "]";
+	}
 }

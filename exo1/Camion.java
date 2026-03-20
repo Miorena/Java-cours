@@ -36,8 +36,7 @@ public class Camion extends Vehicule {
 
 	@Override
 	public String toString() {
-		return "Camion [id=" + getIdVehicule() + ", marque=" + getMarque() +
-				", essieux=" + essieux + ", tonnage=" + tonnage +
+		return "Camion [" + super.toString() + ", essieux=" + essieux + ", tonnage=" + tonnage +
 				", PTC=" + ptc + ", PV=" + pv + ", CU=" + cu +
 				", remorque=" + remorque + "]";
 	}

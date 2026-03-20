@@ -10,7 +10,6 @@ public class Professeur extends Personne {
 
 		@Override
 	public String toString() {
-		return "Professeur [id=" + getId() + ", nom=" + getNom() + ", prenom=" + getPrenom() +
-				", adresse=" + getAdresse() + ", matière enseigner=" + matiere;
+		return "Professeur [" + super.toString() + ", matière=" + matiere + "]";
 	}
 }
